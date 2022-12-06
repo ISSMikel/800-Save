@@ -4,11 +4,23 @@
   "description": "This is starting for 800 save project",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "opm",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "express": "^4.18.2",
+    "msnodesqlv8": "^2.7.0",
+    "mssql": "^9.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ISSMikel/800-Save.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ISSMikel/800-Save/issues"
+  },
+  "homepage": "https://github.com/ISSMikel/800-Save#readme"
 }
