@@ -2,7 +2,7 @@
   "name": "800-save",
   "version": "1.0.0",
   "description": "This is starting for 800 save project",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
