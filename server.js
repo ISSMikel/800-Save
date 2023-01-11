@@ -7,9 +7,9 @@ var config={
     server: 'WIN-T1K9LSOB69C',
     driver: 'msnodesqlv8',
     options:{
-        trustedConnection: true,
-        userName: 'Administrator',
-        password: 'OPMserver2'
+       // trustedConnection: true,
+       // userName: 'Administrator',
+       // password: 'OPMserver2'
     }
 };
 
@@ -35,5 +35,6 @@ sql.connect(config, function(err){
 var server = app.listen(5000, function () {
     console.log('Server is running..');
 });
+
 
 
